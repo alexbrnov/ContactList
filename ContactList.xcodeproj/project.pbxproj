@@ -14,6 +14,9 @@
 		0E2A88B72AEBAF87009211BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2A88B52AEBAF87009211BA /* LaunchScreen.storyboard */; };
 		0E2A88BF2AEBAFBE009211BA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A88BE2AEBAFBE009211BA /* Person.swift */; };
 		0E2A88C12AEBAFCA009211BA /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A88C02AEBAFCA009211BA /* DataSource.swift */; };
+		0E2A88C32AEBB1FE009211BA /* PersonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A88C22AEBB1FE009211BA /* PersonsTableViewController.swift */; };
+		0E2A88C52AEBB236009211BA /* PersonsDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A88C42AEBB236009211BA /* PersonsDetailsTableViewController.swift */; };
+		0E2A88C72AEBB32A009211BA /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2A88C62AEBB32A009211BA /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		0E2A88B82AEBAF87009211BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E2A88BE2AEBAFBE009211BA /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		0E2A88C02AEBAFCA009211BA /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		0E2A88C22AEBB1FE009211BA /* PersonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTableViewController.swift; sourceTree = "<group>"; };
+		0E2A88C42AEBB236009211BA /* PersonsDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsDetailsTableViewController.swift; sourceTree = "<group>"; };
+		0E2A88C62AEBB32A009211BA /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				0E2A88AC2AEBAF86009211BA /* SceneDelegate.swift */,
 				0E2A88BE2AEBAFBE009211BA /* Person.swift */,
 				0E2A88C02AEBAFCA009211BA /* DataSource.swift */,
+				0E2A88C22AEBB1FE009211BA /* PersonsTableViewController.swift */,
+				0E2A88C42AEBB236009211BA /* PersonsDetailsTableViewController.swift */,
+				0E2A88C62AEBB32A009211BA /* InfoViewController.swift */,
 				0E2A88B02AEBAF86009211BA /* Main.storyboard */,
 				0E2A88B32AEBAF87009211BA /* Assets.xcassets */,
 				0E2A88B52AEBAF87009211BA /* LaunchScreen.storyboard */,
@@ -144,7 +153,10 @@
 				0E2A88AB2AEBAF86009211BA /* AppDelegate.swift in Sources */,
 				0E2A88BF2AEBAFBE009211BA /* Person.swift in Sources */,
 				0E2A88C12AEBAFCA009211BA /* DataSource.swift in Sources */,
+				0E2A88C72AEBB32A009211BA /* InfoViewController.swift in Sources */,
+				0E2A88C52AEBB236009211BA /* PersonsDetailsTableViewController.swift in Sources */,
 				0E2A88AD2AEBAF86009211BA /* SceneDelegate.swift in Sources */,
+				0E2A88C32AEBB1FE009211BA /* PersonsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
