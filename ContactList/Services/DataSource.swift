@@ -60,5 +60,5 @@ final class DataStore {
         "user10@example.com"
     ]
     
-    private init() {}
+    
 }

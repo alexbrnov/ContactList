@@ -7,12 +7,21 @@
 
 import UIKit
 
-class InfoViewController: UIViewController {
+final class InfoViewController: UIViewController {
 
+    @IBOutlet var phoneLabel: UILabel!
+    @IBOutlet var emailLabel: UILabel!
+    
+    var person: Person!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        navigationItem.title = person.fullName
+        
+        phoneLabel.text = "Phone: \(person.phoneNumber)"
+        emailLabel.text = "Email: \(person.email)"
+        
     }
     
 
