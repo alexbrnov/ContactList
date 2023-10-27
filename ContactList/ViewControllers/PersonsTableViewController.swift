@@ -11,7 +11,6 @@ final class PersonsTableViewController: UITableViewController {
     
     var persons: [Person]!
     
-   
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showInfo" {
             guard
@@ -28,7 +27,6 @@ final class PersonsTableViewController: UITableViewController {
 
 // MARK: - UITableViewDataSource
 extension PersonsTableViewController {
-    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         persons.count
     }
@@ -43,5 +41,4 @@ extension PersonsTableViewController {
         cell.contentConfiguration = content
         return cell
     }
-    
 }
